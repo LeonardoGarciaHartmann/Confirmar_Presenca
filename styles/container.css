@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Imperial;
+  src: url(../assets/fonts/Imperial_Script/ImperialScript-Regular.ttf);
+}
+#container {
+  background-color: #90c67c;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-family: Imperial;
+  padding: 100px;
+  border-radius: 10px;
+  color: #40513b;
+  font-size: 20px;
+}
+#container input {
+  border: none;
+  border-radius: 20px;
+  text-align: center;
+  width: 350px;
+  height: 35px;
+  font-family: Imperial;
+  font-display: flex;
+  font-size: 30px;
+  color: #40513b;
+  background-color: #e1eebc;
+}
+#container select {
+  text-align: center;
+  background-color: #e1eebc;
+  border: none;
+  border-radius: 20px;
+  width: 350px;
+  height: 35px;
+  color: #40513b;
+  font-family: Imperial;
+  font-size: 30px;
+}
+#container label {
+  font-size: 30px;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/body.css" />
+    <link rel="stylesheet" href="./styles/container.css" />
+    <link rel="stylesheet" href="./styles/button.css" />
+    <script src="./scripts/confirmar.js"></script>
+    <title>Confirmar Presença</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Confirmar</h1>
+      <label for="nomeInput" id="nomelabel">Nome</label>
+      <br />
+      <input type="text" name="nome" id="nomeInput" />
+      <br />
+      <br />
+      <label for="seletor">Confirme</label>
+      <br />
+      <select name="seletor" id="seletor">
+        <option value="">Selecione</option>
+        <option value="Vou Comparecer">Vou Comparecer</option>
+        <option value="Não Comparecerei">Não Comparecerei</option>
+      </select>
+      <br />
+      <br />
+      <button onclick="confirmar()">Confirmar</button>
+    </div>
+  </body>
+</html>
